@@ -2,9 +2,13 @@
   "name": "bookstore",
   "version": "1.0.0",
   "description": "A Simple Bookstore App",
+  "engines":{
+    "node": "6.9.2",
+    "npm": "3.10.9"
+  },
   "main": "app.js",
   "scripts": {
-    "start": "npm start"
+    "start": "node app.js"
   },
   "dependencies": {
       "express":"*",
