@@ -4,12 +4,16 @@
   "description": "A Simple Bookstore App",
   "main": "app.js",
   "scripts": {
-    "start": "node app"
+    "start": "npm start"
   },
   "dependencies": {
       "express":"*",
       "body-parser":"*",
       "mongoose":"*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dhruvp-8/bookstore_REST"
   },
   "author": "Dhruv Patel",
   "license": "ISC"
